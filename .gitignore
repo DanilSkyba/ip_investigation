@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env_ip_inv/
 
 # Spyder project settings
 .spyderproject
