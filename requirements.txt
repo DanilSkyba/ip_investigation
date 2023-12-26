@@ -1,6 +1,5 @@
 blinker==1.7.0
-certifi @ file:///private/tmp/python-certifi-20231008-5561-13s00fm/certifi-2023.7.22
-click @ file:///private/tmp/python-click-20231007-5528-1269rfd/click-8.1.7
+glib-2.0==2.64.0
 Flask==3.0.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
