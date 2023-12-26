@@ -28,7 +28,16 @@
     <form action="/" method="POST">
         <label for="inputs">Enter your input:</label>
         <input type="text" id="inputs" name="inputs" required>
-        <button type="submit">Open URLs</button>
+        <button type="submit">Get URLs</button>
     </form>
+
+    {% if urls %}
+    <h2>Generated URLs:</h2>
+    <ul>
+        {% for link in urls %}
+        <li><a href="{{ link.url }}" target="_blank">{{ link.name }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </body>
 </html>
